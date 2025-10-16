@@ -13,12 +13,12 @@ body {
 }
 
 body.light {
-    background-color: #fff;
+    background-color: #a57b54;
     color: #333;
 }
 
 body.dark {
-    background-color: #333;
+    background-color: #68573d;
     color: #fff;
 }
 
@@ -27,12 +27,12 @@ body.dark {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #f4f4f4;
+    background-color: #755b3e;
     transition: background-color 0.3s ease;
 }
 
 body.dark .navbar {
-    background-color: #555;
+    background-color: #755b3e;
 }
 
 .nav-links {
@@ -49,7 +49,7 @@ body.dark .navbar {
 }
 
 .nav-links a:hover {
-    color: #007bff;
+    color: #ffffff;
 }
 
 #theme-toggle {
@@ -73,15 +73,15 @@ body.dark .navbar {
 }
 
 .banner-img {
-
+    padding: 50px;
     max-width: 50%;
-    height: auto;
+    height: min-content;
     transition: transform 0.3s ease; 
-    border-radius: 50%;
+    border-radius: 75px 200px 75px 200px;
 }
 
 .banner-img:hover {
-    transform: scale(1.01);
+    transform: scale(1.10);
 }
 
 .productos-main {
@@ -109,7 +109,7 @@ body.dark .navbar {
 }
 
 body.dark .tarjeta {
-    background-color: #555;
+    background-color: #806640;
     border-color: #777;
 }
 
@@ -123,6 +123,7 @@ body.dark .tarjeta {
     max-width: 100%;
     height: auto;
     transition: transform 0.3s ease;
+     border-radius: 15px;
 }
 
 .tarjeta img:hover {
@@ -148,11 +149,11 @@ body.dark .tarjeta {
     text-align: center;
     padding: 1rem;
     background-color: #f4f4f4;
-    border-radius: 5px;
+    border-radius: 50px 25px 50px 25px ;
 }
 
 body.dark .miembro {
-    background-color: #555;
+    background-color: #806640;
 }
 
 @media (max-width: 768px) {
@@ -168,4 +169,23 @@ body.dark .miembro {
     .equipo {
         flex-direction: column;
     }
+}
+.ini {
+border-radius: 5px;
+background-color: #a18565;
+}
+.produ{
+border-radius: 5px;
+background-color: #a18565;
+}
+.sob {
+border-radius: 5px;
+background-color: #a18565;
+}
+.footer {
+    background-color: #755b3e;
+    padding: 1rem;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+    text-align: center;
 }
